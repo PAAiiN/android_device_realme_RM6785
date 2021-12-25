@@ -29,6 +29,9 @@ $(call inherit-product, vendor/realme/RM6785/RM6785-vendor.mk)
 # realme Dirac
 $(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
 
+# realme Parts
+$(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
