@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Call proprietary blob setup
 $(call inherit-product, vendor/realme/RM6785/RM6785-vendor.mk)
 
+# realme Dirac
+$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
