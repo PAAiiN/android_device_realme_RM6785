@@ -1,2 +1,5 @@
+# CABC
+persist.cabc_profile        u:object_r:cabc_prop:s0
+
 # DT2W
 persist.sys.dt2w         u:object_r:dt2w_prop:s0
