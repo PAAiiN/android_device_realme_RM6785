@@ -1,5 +1,10 @@
 # All unpinned blobs are from RMX2002GDPR_11_C.17
 
+# Audio (Dirac)
+vendor/etc/diracmobile.config
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/soundfx/libdirac.so
+
 # Bluetooth (AptX)
 -lib64/libaptX_encoder.so
 -lib64/libaptXHD_encoder.so
