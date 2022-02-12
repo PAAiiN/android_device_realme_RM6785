@@ -37,5 +37,9 @@ void _ZN7android7SurfaceC1ERKNS_2spINS_22IGraphicBufferProducerEEEb(
         _ZN7android7SurfaceC1ERKNS_2spINS_22IGraphicBufferProducerEEEbRKNS1_INS_7IBinderEEE(thisptr, bufferProducer, controlledByApp, nullptr);
 }
 
+void _ZN7android11AudioSourceC1E14audio_source_tRKNS_8String16Ejjjjii28audio_microphone_direction_tf(audio_source_t inputSource, const String16 &opPackageName,
+    uint32_t sampleRate, uint32_t channels, uint32_t outSampleRate, uid_t uid, pid_t pid,
+    audio_port_handle_t selectedDeviceId, int32_t selectedMicDirection, float selectedMicFieldDimension);
+
 int _ZN7android10MediaMuxerC1EiNS0_12OutputFormatE[6] = { 0, 1, 2, 3, 4, NULL };
 }
