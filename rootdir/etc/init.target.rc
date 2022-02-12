@@ -33,6 +33,10 @@ on property:sys.boot_completed=1
     # OTG
     write /sys/class/power_supply/usb/otg_switch 1
 
+    # SELinux nodes, hide permissive state
+    chmod 0640 /sys/fs/selinux/enforce
+    chmod 0440 /sys/fs/selinux/policy
+
 on property:persist.vendor.radio.port_index=""
     setprop sys.usb.config adb
 

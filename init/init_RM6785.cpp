@@ -170,4 +170,10 @@ void vendor_load_properties() {
     set_ro_build_prop("product", model, false);
 
     check_nfc_support();
+
+    // SafetyNet workaround
+    property_override("ro.boot.veritymode", "enforcing");
+    property_override("ro.boot.verifiedbootstate", "green");
+    property_override("ro.boot.vbmeta.device_state", "locked");
+    property_override("vendor.boot.vbmeta.device_state", "locked");
 }
