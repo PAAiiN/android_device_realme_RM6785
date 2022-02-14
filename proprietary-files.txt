@@ -62,6 +62,10 @@ framework/mediatek-ims-legacy.jar
 -odm/lib64/liboemcrypto.so
 -odm/lib/liboemcrypto.so
 
+# DRM Widevine
+-odm/lib64/liboemcrypto.so
+-odm/lib/liboemcrypto.so
+
 # NFC
 odm/etc/init/init.pn8x.nfc.rc
 odm/etc/init/init.pn8x.se.rc
