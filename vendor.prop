@@ -186,3 +186,6 @@ vendor.connsys.driver.ready=no
 vendor.mtk.omxvdec.internal.HDR=0
 vendor.mtk.vdec.waitkeyframeforplay=7
 wifi.concurrent.interface=ap0
+
+# Fingerprint
+fingerprint.nocleanup=true
