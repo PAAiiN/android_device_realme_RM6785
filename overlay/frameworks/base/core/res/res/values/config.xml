@@ -360,4 +360,11 @@
         <item>1020</item> <!--item>sensorLocationY</item-->
         <item>115</item> <!--item>sensorRadius</item-->
     </array>
+
+    <integer-array name="config_availableColorModes">
+        <item>0</item> <!-- COLOR_MODE_NATURAL -->
+        <item>1</item> <!-- COLOR_MODE_BOOSTED -->
+        <item>2</item> <!-- COLOR_MODE_SATURATED -->
+        <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
+    </integer-array>
 </resources>
