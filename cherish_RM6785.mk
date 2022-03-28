@@ -26,7 +26,8 @@ $(call inherit-product, device/realme/RM6785/device.mk)
 
 # Inherit some common CherishOS stuff.
 # USE_GAPPS=true # TARGET_USES_BLUR := true # USE_LAWNCHAIR := true
-# CHERISH_VANILLA := true
+# CHERISH_VANILLA := true 
+# TARGET_SUPPORTS_QUICK_TAP := true
 CHERISH_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
