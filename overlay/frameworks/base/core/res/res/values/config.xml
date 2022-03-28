@@ -368,6 +368,9 @@
         <item>3</item> <!-- COLOR_MODE_AUTOMATIC -->
     </integer-array>
 
+    <!-- Whether device has vooc charging support -->
+    <bool name="config_hasVoocCharger">true</bool>
+
     <!-- Controls the navigation bar interaction mode:
          0: 3 button mode (back, home, overview buttons)
          1: 2 button mode (back, home buttons + swipe up for overview)
