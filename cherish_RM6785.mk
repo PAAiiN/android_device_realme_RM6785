@@ -21,11 +21,21 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RM6785/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# ARCANA_DEVICE := RM6785 # TARGET_BUILD_GRAPHENEOS_CAMERA := true/false
+# ARCANA_MAINTAINER := PAiN
+
+# Inherit some common CherishOS stuff.
+# USE_GAPPS=true # TARGET_USES_BLUR := true # USE_LAWNCHAIR := true
+# CHERISH_VANILLA := true
+# TARGET_SUPPORTS_QUICK_TAP := true
+CHERISH_BUILD_TYPE := OFFICIAL
+TARGET_BOOT_ANIMATION_RES := 1080
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+#$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RM6785
+#PRODUCT_NAME := aosp_RM6785
+PRODUCT_NAME := cherish_RM6785
 PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
@@ -33,4 +43,7 @@ PRODUCT_MANUFACTURER := realme
 
 BUILD_FINGERPRINT := "realme/RMX2001/RMX2001L1:10/QP1A.190711.020/1594211000:user/release-keys"
 
-PRODUCT_GMS_CLIENTID_BASE := android-oppo
+PRODUCT_GMS_CLIENTID_BASE := android-realme
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=PAiN
