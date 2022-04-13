@@ -1,0 +1,7 @@
+type perf_profile, domain, coredomain;
+type perf_profile_exec, system_file_type, exec_type, file_type;
+
+init_daemon_domain(perf_profile)
+
+# Allow perf_profile to execute shell commands
+allow perf_profile shell_exec:file { execute map read getattr };
