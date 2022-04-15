@@ -133,6 +133,7 @@ PRODUCT_PACKAGES += \
 # Init
 PRODUCT_PACKAGES += \
     init.target.rc \
+    ueventd.oplus.rc \
     fstab.mt6785 \
     perf_profile.sh
 
