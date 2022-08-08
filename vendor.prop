@@ -44,6 +44,10 @@ ro.vendor.smvr.p2batch.vga=16
 vendor.camera.mdp.cz.enable=1
 vendor.camera.mdp.dre.enable=1
 
+# ColorModes
+persist.sys.sf.color_saturation=1.1
+persist.sys.sf.native_mode=0
+
 # Connectivity
 persist.vendor.connsys.chipid=-1
 persist.vendor.connsys.coredump.mode=2
