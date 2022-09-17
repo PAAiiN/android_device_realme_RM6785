@@ -1,1 +1,2 @@
 set_prop(system_app, dt2w_prop)
+set_prop(system_app, system_perf_prop)
