@@ -992,7 +992,7 @@ vendor/etc/ncf_pack.ncf
 -vendor/lib/libimageio_plat_pipe.so
 -vendor/lib/liblpcnr.so
 -vendor/lib/libmfllcore.so
--vendor/lib/libmpbase.so
+vendor/lib/libmpbase.so
 -vendor/lib/libmsnr.so
 -vendor/lib/libmtk_drvb.so
 -vendor/lib/libmtkcam.atmseventmgr.so
@@ -1541,7 +1541,7 @@ vendor/etc/ncf_pack.ncf
 -vendor/lib64/liblpcnr.so
 -vendor/lib64/libmfllcore.so
 -vendor/lib64/libml_util.so
--vendor/lib64/libmpbase.so
+vendor/lib64/libmpbase.so
 -vendor/lib64/libmsnr.so
 -vendor/lib64/libmtk_drvb.so
 -vendor/lib64/libmtkcam.atmseventmgr.so
