@@ -2349,6 +2349,14 @@ vendor/etc/vintf/manifest/power-default.xml:vendor/etc/vintf/manifest/power-mtk-
 -vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so|c82cb5b326aa2b6708bb93156b6d9ebb049549fa
 -vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so|bb78b16bafc492a5ad72da0ac31b6d92f07f6ca5
 
+# Power (system-side)
+lib/libperfctl.so
+lib/libpowerhalwrap_jni.so
+lib/libpowerhalwrap.so
+lib64/libperfctl.so
+lib64/libpowerhalwrap_jni.so
+lib64/libpowerhalwrap.so
+
 # Public libraries
 vendor/etc/public.libraries.txt
 
