@@ -148,7 +148,6 @@ persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
 ro.telephony.default_network=9,9
 ro.telephony.iwlan_operation_mode=default
-ro.telephony.sim.count=2
 ro.vendor.md_auto_setup_ims=1
 ro.vendor.md_log_memdump_wait=15
 ro.vendor.md_prop_ver=1
