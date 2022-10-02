@@ -326,6 +326,11 @@ vendor/etc/usb_audio_policy_configuration.xml
 -vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 -vendor/lib/vendor.mediatek.hardware.audio@6.1.so
 
+# Audio (Dirac)
+vendor/etc/diracmobile.config
+vendor/lib/libDiracAPI_SHARED.so
+vendor/lib/soundfx/libdirac.so
+
 # Bluetooth (aptX)
 -lib64/libaptXHD_encoder.so
 -lib64/libaptX_encoder.so
